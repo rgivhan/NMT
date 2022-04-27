@@ -41,3 +41,10 @@ This repo comes with pre-trained parameters and test outputs. If you'd like to r
 sh run.sh train
 (Windows) run.bat train
 ```
+
+
+**To test** run: 
+```
+sh run.sh test
+(Windows) run.bat test
+```
