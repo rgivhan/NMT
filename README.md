@@ -33,4 +33,11 @@ Abraham said unto him, Moses and the prophets: that he might be fulfilled.
 Wherefore be not afraid, because of them of them, but by their faith and in patience.
 So he came to him, he was nothing to see something.
 
-## How to Run
+## How to Train and Test
+This repo comes with pre-trained parameters and test outputs. If you'd like to re-train and re-test after adapting the model, use these commands. 
+
+**To train** run: 
+```
+sh run.sh train
+(Windows) run.bat train
+```
