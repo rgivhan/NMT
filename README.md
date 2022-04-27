@@ -11,7 +11,7 @@ Machine translation efforts, such as those by Zhang et al. (https://arxiv.org/ab
 ## Architecture
 We use a Seq2Seq network with multiplicative attention to build an NMT system. Our training procedure uses a Bidirectional LSTM Encoder, a Unidirectional LSTM Decoder, and a cross entropy loss function. Sentences are encoded at the sub-word level, as Cherokee is a polysynthetic language and so morpheme meaning in Cherokee often corresponds to word meaning in English. We used **PyTorch**. 
 
-![Model Architecture](https://github.com/rgivhan/NMT/NMT_diagram.png
+![Model Architecture](https://github.com/rgivhan/NMT/NMT_diagram.png)
 
 ## Output and Results
 We achieve a BLEU Score of 13.18. This is impressive considering our limited training data. Zhang et al. used multilingual training data to alleviate the low-resource constraint and achieved a higher but similar score of ~15. 
