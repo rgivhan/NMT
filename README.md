@@ -10,6 +10,8 @@ Cherokee is spoken by only ~2000 as their first language, and of these speakers,
 * It is gender-neutral
 * Verbs comprise 75% of the language (compared to 25% for English)
 
+Machine translation efforts, such as those by https://arxiv.org/abs/2010.04791, are essential to the preservation and revitalization of the language. We present our effort here.  
+
 ## Output and Results
 
 ## How to Run
